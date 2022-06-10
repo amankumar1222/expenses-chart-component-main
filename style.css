@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background:  hsl(27, 66%, 92%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.left{
+    position: absolute;
+    left: 0px;
+}
+.flex{
+    display: flex;
+}
+.direction{
+    flex-direction: column;
+}
+.justify{
+    justify-content: space-between;
+    
+}
+.align-items{
+    align-items: center;
+}
+.container{
+    height: 500px;
+    width: 420px;
+}
+.right{
+    text-align: right;
+}
+.balance-box{
+    height: 20%;
+    margin-bottom: 20px;
+    background: hsl(10, 79%, 65%);
+     color: #fff;
+   
+}
+.sticker img{
+    width: 65%;
+}
+.padding{
+    padding: 20px  ;
+    border-radius: 10px;
+}
+.balance p{
+    font-size: 12px;
+    margin: 5px 0px;
+   
+}
+.balance h1{
+    font-size: 16px;
+}
+
+.chartheading{
+    position: relative;
+    width: 100%;
+    
+}
+.chart-box{
+    height: 80%;
+  width: 100%;
+  background:  #fff;
+
+
+}
+.chart{
+   height: 70%;
+  width: 100%;
+   /* padding: 0px 20px; */
+margin-bottom: 20px;
+  
+}
+.hr{
+ border: .5px solid rgba(192, 190, 190, 0.452);
+ width: 100%;
+ margin: 10px 0px;
+}
+
+
+.mon-box{
+    background: hsl(10, 79%, 65%);
+    height: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+
+
+}
+.mon{ 
+    flex-direction: column-reverse;
+    text-align: center;
+    /* margin: 5px; */
+}
+
+
+
+.mon span{
+  
+    padding-top: 10px; ;
+}
+
+.mons{
+ height: 45px;
+ /* padding: ; */
+}
+.tue{
+ height: 80px;
+ /* padding: ; */
+}
+.wed{
+ height: 120px;
+ /* padding: ; */
+ background:  hsl(186, 34%, 60%);
+}
+.thu{
+ height: 70px;
+ /* padding: ; */
+}
+
+.fri{
+ height: 55px;
+ /* padding: ; */
+}
+
+
+.sat{
+ height: 100px;
+ /* padding: ; */
+}
+.sun{
+ height: 50px;
+ /* padding: ; */
+}
+
+.active{
+    background: hsl(25, 47%, 15%);
+    color: #fff;
+    padding: 5px 3px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    text-align: center;
+   display: none;
+}
+.block{
+    display: block;
+}
+
+
+
+
+.total-balance{
+     height: 30%;
+     width: 100%;
+
+}
+.bold p{
+    color: hsl(28, 10%, 53%);
+
+
+}
+.bold h2{
+    font-weight: 700;
+    font-size: 28px;
+}
+.sticker span{
+    /* font-size: bold; */
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container{
+        width: 90vh;
+        /* height: 500px; */
+        margin: 0px 10px;
+    }
+    .mon-box{
+        width: 35px;
+    }
+   
+  }
+
+
+
+
+
+  /* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
